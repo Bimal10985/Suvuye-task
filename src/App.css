@@ -1,0 +1,120 @@
+.navbar {
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+
+    .title {
+      color: #000000;
+      font-family: 'Vazirmatn', sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin: 6px 10px 0 10px;
+
+    }
+  }
+
+
+}
+
+.imput-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #F1F4F7;
+  /* width: 1003px; */
+  border-radius: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: linear-gradient(0deg, #CED9E3, #CED9E3),
+    linear-gradient(0deg, #F1F4F7, #F1F4F7);
+
+  .input {
+    border: none !important;
+    padding: 0;
+    background: linear-gradient(0deg, #CED9E3, #CED9E3),
+      linear-gradient(0deg, #F1F4F7, #F1F4F7);
+
+
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+      font-family: Vazirmatn, sans-serif;
+    }
+  }
+
+  .search-icon {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+}
+
+.contentWrapper {
+  border: 3px solid #CED9E3;
+  padding: 20px 20px 200px 20px;
+  border-radius: 10px;
+  margin-left: 15px;
+
+  .circle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    .text {
+      margin-left: 10px;
+      margin-top: 8px;
+    }
+  }
+
+  .nav-item {
+    margin-right: 20px;
+  }
+
+  .nav-pills .nav-link {
+    background-color: #DEDEDE !important;
+    color: #000000;
+    font-weight: 500;
+    padding: 4px 20px;
+  }
+
+  .nav-pills .nav-link.active {
+    background-color: #000000 !important;
+  }
+
+  .order-list {
+    margin-top: 20px;
+
+    .listing {
+      font-size: 20px;
+      font-family: 'Inter', sans-serif;
+
+    }
+  }
+
+}
+
+.image-footer {
+  margin-top: 80px;
+
+  .image {
+    width: 100%;
+  }
+}
+
+.title-text {
+  margin: 80px 0 40px 13px;
+}
